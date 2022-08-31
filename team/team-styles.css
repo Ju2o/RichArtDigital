@@ -5,8 +5,8 @@
 
 body {
     margin: 0;
+    padding: 0;
 }
-
 
 li, a, button {
     font-size: 16px;
@@ -113,12 +113,17 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+section {
+    margin: 20px;
+}
+
 footer {
-    background-color: #24252a;
     height: fit-content;
 }
 
 footer p {
     padding: 30px;
     color: #edf0f1;
+    background-color: #24252a;
+    margin: 0;
 }
